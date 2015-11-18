@@ -197,7 +197,7 @@ def qsort3(alist, l, u):
     i = l + 1
     j = u
     while True:
-        while i <= u and alist[i] < t:
+        while i <= u and alist[i] <= t:
             i += 1
         while alist[j] > t:
             j -= 1

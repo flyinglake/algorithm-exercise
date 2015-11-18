@@ -16,8 +16,8 @@ public class Main {
         int[] nums = new int[]{1,2,2,3,4,6,6,6,13,18};
         System.out.println(lowerBound(nums, 6)); // 5
         System.out.println(upperBound(nums, 6)); // 7
-        System.out.println(lowerBound(nums, 7)); // 8
-        System.out.println(upperBound(nums, 7)); // 7
+        System.out.println(lowerBound(nums, 7)); // 8 =>7
+        System.out.println(upperBound(nums, 7)); // 7 =>8
     }
 
     /*
